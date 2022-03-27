@@ -18,65 +18,71 @@
   <main class="flex-container">
     <div class="flex-item col-lg-6">
       <div class="jeremy col-lg-3 ">
-        <img class="img1" src="images/image-jeremy.png" alt="">
-        <h2>Report for Jeremy Robson</h2>
-<div>
- <label for="1">daily</label>
-  <input type="radio" name="Time" id="1" ><br>
-  <label for="2">weekly</label>
-  <input type="radio" name="Time" id="2" ><br>
-  <label for="3">mounthly</label>
-  <input type="radio" name="Time" id="3">
-</div>
+        <div class="jeremyAlt">
+          <img class="img1" src="images/image-jeremy.png" alt="">
+          <p style="margin: 0;">Report for</p>
+          <h2>Jeremy Robson</h2>
+        </div>
+        <div class="anchors">
+          <a class="daily" style="color: aliceblue;">Daily</a><br>
+          <a class="weekly" style="color: aliceblue;">Weekly</a><br>
+          <a class="mounthly" style="color: aliceblue;">Mounthly</a><br>
+        </div>
 
       </div>
       <div class="stats col-lg-8 ">
-        <div class="col-sm-12 col-lg-3  rutine">
-         <h3 style="color: white;"> Work </h3>
-         <h1 style="color: white;">5hrs</h1>
-          <!-- daily -->
-         <p style="color: white;"> Previous - 7hrs</p>
-          <!-- daily -->
-
-
-        </div>
-        <div class="col-sm-12 col-lg-3  rutine">
-       
-          <h3 style="color: white;"> Play </h3>
-          <h1 style="color: white;">1hr</h1>
-           <!-- daily -->
-          <p style="color: white;">  Previous - 2hrs</p>
-           <!-- daily -->
+        <div class="col-sm-12 col-lg-3  rutine " style="background-image: url('images/icon-work.svg');">
+          <div class="work">
+            <h3 style="color: white;"> Work </h3>
+            <h1 class="workHour" style="color: white;">5hrs</h1>
+            <p class="prevWorkHour" style="color: white;">Previous - 7hrs</p>
+          </div>
 
         </div>
-        <div class="col-sm-12 col-lg-3  rutine">
+        <div class="col-sm-12 col-lg-3  rutine" style="background-image: url('images/icon-play.svg');" >
+          <div class="work">
+            <h3 style="color: white;"> Play </h3>
+            <h1 class="playHour" style="color: white;">1hr</h1>
+            <!-- daily -->
+            <p class="prevPlayHour" style="color: white;">Previous - 2hrs</p>
+            <!-- daily -->
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3  rutine" style="background-image: url('images/icon-study.svg');">
+          <div class="work">
           <h3 style="color: white;"> Study </h3>
-          <h1 style="color: white;">0hrs</h1>
-           <!-- daily -->
-          <p style="color: white;"> Previous - 1hr</p>
-           <!-- daily -->
+          <h1 class="studyHour" style="color: white;">0hrs</h1>
+          <!-- daily -->
+          <p class="prevStudyHour" style="color: white;">Previous - 1hr</p>
+          <!-- daily -->
         </div>
-        <div class=" col-sm-12  col-lg-3  rutine">
+        </div>
+        <div class=" col-sm-12  col-lg-3  rutine" style="background-image: url('images/icon-exercise.svg');" >
+          <div class="work">
           <h3 style="color: white;"> Exercise </h3>
-          <h1 style="color: white;">1hr</h1>
-           <!-- daily -->
-          <p style="color: white;"> Previous - 1hr</p>
-           <!-- daily -->
-
+          <h1 class="exerciseHour" style="color: white;">1hr</h1>
+          <!-- daily -->
+          <p class="prevExerciseHour" style="color: white;">Previous - 1hr</p>
+          <!-- daily -->
         </div>
-        <div class="col-sm-12  col-lg-3 rutine">
+        </div>
+        <div class="col-sm-12  col-lg-3 rutine" style="background-image: url('images/icon-social.svg');">
+          <div class="work">
           <h3 style="color: white;"> Social </h3>
-          <h1 style="color: white;">1hr</h1>
-           <!-- daily -->
-          <p style="color: white;"> Previous - 3hr</p>
-           <!-- daily -->
+          <h1 class="socialHour" style="color: white;">1hr</h1>
+          <!-- daily -->
+          <p class="prevSocialHour" style="color: white;">Previous - 3hr</p>
+          <!-- daily -->
         </div>
-        <div class=" col-sm-12  col-lg-3 rutine">
+        </div>
+        <div class=" col-sm-12  col-lg-3 rutine" style="background-image: url('images/icon-self-care.svg');" >
+          <div class="work">
           <h3 style="color: white;"> Self Care </h3>
-          <h1 style="color: white;">0hr</h1>
-           <!-- daily -->
-          <p style="color: white;"> Previous - 1hr</p>
-           <!-- daily -->
+          <h1 class="selfcareHour" style="color: white;">0hr</h1>
+          <!-- daily -->
+          <p class="prevSelfcareHour" style="color: white;">Previous - 1hr</p>
+          <!-- daily -->
+        </div>
         </div>
       </div>
     </div>
@@ -95,6 +101,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>

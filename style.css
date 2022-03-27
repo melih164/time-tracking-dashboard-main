@@ -33,11 +33,29 @@ footer {
 
 .jeremy {
 
-    background-color: rgb(121, 101, 194);
-    height: 440px;
-    margin-right: 20px;
-    margin-left: 20px;
+    background-color: rgb(34, 5, 139);
+    height: 420px;
+    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 15px;
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+
+.jeremyAlt {
+
+    background-color: rgb(123, 125, 226);
+    height: 306px;
+    border-radius: 15px;
+    padding-left: 8%;
+    padding-top: 10%;
+}
+
+.anchors {
+    padding-left: 8%;
+    padding-top: 9%;
+
 }
 
 .stats{
@@ -51,13 +69,28 @@ footer {
 .rutine {
 
     height: 200px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 10%;
+    background-color: rgb(176, 202, 59);
+   
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.work {
     background-color: rgb(46, 44, 175);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 15px;
+    height: 80%;
 }
 
 .img1 {
 
-    width: 40%;
-    height: 25%;
+width: 40%;
+margin-bottom: 10%;
+border: 3px solid rgb(255, 255, 255);
+border-radius: 50%;
 }
