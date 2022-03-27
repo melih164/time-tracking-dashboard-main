@@ -1,80 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Time tracking dashboard</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <main class="flex-container">
+    <div class="flex-item col-lg-6">
+      <div class="jeremy col-lg-3 ">
+        <img class="img1" src="images/image-jeremy.png" alt="">
+        <h2>Report for Jeremy Robson</h2>
+<div>
+ <label for="1">daily</label>
+  <input type="radio" name="Time" id="1" ><br>
+  <label for="2">weekly</label>
+  <input type="radio" name="Time" id="2" ><br>
+  <label for="3">mounthly</label>
+  <input type="radio" name="Time" id="3">
+</div>
 
-  Report for
-  Jeremy Robson
+      </div>
+      <div class="stats col-lg-8 ">
+        <div class="col-sm-12 col-lg-3  rutine">
+         <h3 style="color: white;"> Work </h3>
+         <h1 style="color: white;">5hrs</h1>
+          <!-- daily -->
+         <p style="color: white;"> Previous - 7hrs</p>
+          <!-- daily -->
 
-  Daily
-  Weekly
-  Monthly
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+        </div>
+        <div class="col-sm-12 col-lg-3  rutine">
+       
+          <h3 style="color: white;"> Play </h3>
+          <h1 style="color: white;">1hr</h1>
+           <!-- daily -->
+          <p style="color: white;">  Previous - 2hrs</p>
+           <!-- daily -->
 
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
+        </div>
+        <div class="col-sm-12 col-lg-3  rutine">
+          <h3 style="color: white;"> Study </h3>
+          <h1 style="color: white;">0hrs</h1>
+           <!-- daily -->
+          <p style="color: white;"> Previous - 1hr</p>
+           <!-- daily -->
+        </div>
+        <div class=" col-sm-12  col-lg-3  rutine">
+          <h3 style="color: white;"> Exercise </h3>
+          <h1 style="color: white;">1hr</h1>
+           <!-- daily -->
+          <p style="color: white;"> Previous - 1hr</p>
+           <!-- daily -->
 
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        </div>
+        <div class="col-sm-12  col-lg-3 rutine">
+          <h3 style="color: white;"> Social </h3>
+          <h1 style="color: white;">1hr</h1>
+           <!-- daily -->
+          <p style="color: white;"> Previous - 3hr</p>
+           <!-- daily -->
+        </div>
+        <div class=" col-sm-12  col-lg-3 rutine">
+          <h3 style="color: white;"> Self Care </h3>
+          <h1 style="color: white;">0hr</h1>
+           <!-- daily -->
+          <p style="color: white;"> Previous - 1hr</p>
+           <!-- daily -->
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
