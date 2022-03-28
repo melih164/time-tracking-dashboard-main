@@ -63,3 +63,42 @@ $(".mounthly").click(function () {
     $(".prevSelfcareHour").text("Previous - 11hrs");
 
 })
+
+$(".daily").on("mouseover", function () {
+
+    $(".daily").css("color", "white");
+
+})
+
+$(".weekly").on("mouseover", function () {
+
+    $(".weekly").css("color", "white");
+
+})
+
+
+$(".mounthly").on("mouseover", function () {
+
+    $(".mounthly").css("color", "white");
+
+})
+
+$(".daily").on("mouseout", function () {
+
+    $(".daily").css("color", "#434983");
+
+})
+
+$(".weekly").on("mouseout", function () {
+
+    $(".weekly").css("color", "#434983");
+
+})
+
+
+$(".mounthly").on("mouseout", function () {
+
+    $(".mounthly").css("color", "#434983");
+
+})
+
